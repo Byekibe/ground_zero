@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.env/
+venv/
+env/
+
+# Editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Flask specific ignores
+instance/
+.webassets-cache/
+
+# Database files (if using SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Uploaded files or user-generated content (if applicable)
+uploads/
+media/
+
+# Configuration files that should not be committed (e.g., credentials)
+settings.py
+local_settings.py
+
+# Miscellaneous
+tmp/
